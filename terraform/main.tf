@@ -2,7 +2,7 @@ provider "aws" {
   region = "eu-central-1"
 }
 
-# IAM Role for Lambda (unchanged)
+# IAM Role for Lambda
 resource "aws_iam_role" "lambda_role" {
   name = "park_lambda-dynamodb-access-role"
 
