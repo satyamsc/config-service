@@ -3,6 +3,9 @@
 This is a serverless API that provides a configuration service. It is built using the Serverless Framework deploy on 
 AWS Lambda.
 
+System design diagram:
+![img_6.png](img_6.png)
+
 How to run the application:
 1. clone the repository
 2. run mvn clean install
